@@ -1,0 +1,13 @@
+.header{
+    background-color: rgb(140, 0, 255);
+    text-align: center;
+    padding: 17px;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
