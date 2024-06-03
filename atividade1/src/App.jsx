@@ -1,4 +1,5 @@
 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import  Header   from './components/Header'
 import  Home     from './components/Home'
 import  Mission  from './components/Mission'
@@ -13,16 +14,21 @@ function App() {
 
   return (
     <>
+    
     <div>
-      <div>
        <Header />
-      </div>
-      <Home />
-      <Mission />
-      <History />
-      <Contact />
-    </div>
-      <div>
+    
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />}>
+            <Route path='/Mission' element={<Mission />} />
+            <Route path='/History' element={<History />} />
+            <Route path='Contact' element={<Contact />} />
+            <Route path='' element={<NoPage />} />
+            </Route>
+        </Routes>
+      </BrowserRouter>
+
       <Footer />
     </div>
     </>
