@@ -2,9 +2,9 @@
 export function Mission() {
   return (
     <div>
-      <h1>Pagina Mission</h1>
+      <h1>Missoes</h1>
     </div>
   )
 }
 
-export default Mission
+

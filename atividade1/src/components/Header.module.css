@@ -1,5 +1,5 @@
 .header{
-    background-color: rgb(140, 0, 255);
+    background-color: black;
     text-align: center;
     padding: 17px;
     color: #fff;
@@ -11,5 +11,4 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
-    
 }

@@ -2,17 +2,17 @@
 import styles from './Header.module.css'
 
 
-function Header() {
+export function Header() {
   return (
     <header className={styles.header}>
       
       <ul className={styles.menu}>
         
-        <li><a href="">home</a></li>
-        <li><a href="">Missao</a></li>
-        <li><a href="">Produto</a></li>
-        <li><a href="">Historia</a></li>
-        <li><a href="">Contato</a></li>
+        <li><a href="/">home</a></li>
+        <li><a href="./Mission">Missao</a></li>
+        <li><a href="./Produto">Produto</a></li>
+        <li><a href="./History">Historia</a></li>
+        <li><a href="./Contact">Contato</a></li>
         
         
 
@@ -21,4 +21,4 @@ function Header() {
   )
 }
 
-export default Header
+
