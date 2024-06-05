@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom'
 import styles from './Header.module.css'
 
 
@@ -8,11 +9,11 @@ export function Header() {
       
       <ul className={styles.menu}>
         
-        <li><a href="/">home</a></li>
-        <li><a href="./Mission">Missao</a></li>
-        <li><a href="./Produto">Produto</a></li>
-        <li><a href="./History">Historia</a></li>
-        <li><a href="./Contact">Contato</a></li>
+        <li><Link to="./">home</Link></li>
+        <li><Link to='./'>Missao</Link></li>
+        <li><Link to='./'>Produto</Link></li>
+        <li><Link to='./'>Historia</Link></li>
+        <li><Link to='./'>Contato</Link></li>
         
         
 
