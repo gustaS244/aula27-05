@@ -1,10 +1,11 @@
 import styles from './Footer.module.css'
 
-export function Footer() {
+export function Footer(props) {
   return (
    <footer className={styles.footer}>
 
-    <h1>footer</h1>
+    <h1>{props.nomefooter}</h1>
+    
 
    </footer>
       

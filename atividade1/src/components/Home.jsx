@@ -1,9 +1,12 @@
+import HomeContent from "./HomeContent";
 
-export function Home() {
+export function Home(props) {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <>
+      <h1>{props.nomePagina}</h1>
+  
+      <HomeContent/>
+    </>
   )
 }
 

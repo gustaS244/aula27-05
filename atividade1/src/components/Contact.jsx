@@ -1,9 +1,12 @@
+import ContactContent from "./ContactContent";
 
-export function Contact() {
+export function Contact(props) {
   return (
-    <div>
-      <h1></h1>
-    </div>
+    <>
+      <h1>{props.nomeContact}</h1>
+      
+      <ContactContent/>
+    </>
   )
 }
 

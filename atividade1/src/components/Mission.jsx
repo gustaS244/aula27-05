@@ -1,9 +1,12 @@
+import MissionContent from "./MissionContent";
 
-export function Mission() {
+export function Mission(props) {
   return (
-    <div>
-      <h1>Missoes</h1>
-    </div>
+    <>
+      <h1>{props.nomeMissoes}</h1>
+      
+      <MissionContent/>
+    </>
   )
 }
 

@@ -10,10 +10,10 @@ export function Header() {
       <ul className={styles.menu}>
         
         <li><Link to="./">home</Link></li>
-        <li><Link to='./'>Missao</Link></li>
-        <li><Link to='./'>Produto</Link></li>
-        <li><Link to='./'>Historia</Link></li>
-        <li><Link to='./'>Contato</Link></li>
+        <li><Link to='./Mission'>Missao</Link></li>
+        <li><Link to='./Produto'>Produto</Link></li>
+        <li><Link to='./History'>Historia</Link></li>
+        <li><Link to='./Contact'>Contato</Link></li>
         
         
 

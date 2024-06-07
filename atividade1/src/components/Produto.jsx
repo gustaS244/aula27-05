@@ -1,12 +1,14 @@
+import ProdutoContent from "./ProdutoContent";
 
 
-export function Produto() {
+export function Produto(props) {
     
     return (
-      <div>
-        <h1>Nossos Produtos
-        </h1>
-      </div>
+      <>
+        <h1>{props.NossosProdutos}</h1>
+        
+        <ProdutoContent/>
+      </>
     )
 }
 

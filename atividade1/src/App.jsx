@@ -21,16 +21,32 @@ function App() {
        <Header />
 
         <Routes>
-          <Route path='/' element={<Home />} />
-            <Route path='/mission' element={<Mission />} />
-            <Route path='/history' element={<History />} />
-            <Route path='/produto' element={<Produto />} />
-            <Route path='/contato'element={<Contact />} />
+          <Route path='/' element={<Home 
+          nomePagina='Pagina Inicial'
+          paginaPrincipal='Destalhamento de toda Pagina'
+          />} />
+
+          <Route path='/mission' element={<Mission nomeMissoes='Missoes'
+          paginaPrincipal='Detalhes das Missoes'
+          />} />
+
+          <Route path='/history' element={<History nomeHistoria='Historia'
+          paginaPrincipal='Historias'
+          />} 
+          />
+          <Route path='/produto' element={<Produto NossosProdutos='Produtos'
+          paginaPrincipal='seçao de produtos'
+          />} />
+
+          <Route path='/Contact'element={<Contact nomeContact='Contatos'
+          paginaPrincipal='Contato profissional'
+
+          />} />
            
         </Routes>
       
 
-      <Footer/>
+      <Footer nomefooter='Footer'/>
 
     </div>
   

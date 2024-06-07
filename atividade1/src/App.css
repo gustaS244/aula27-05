@@ -2,5 +2,6 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: rgba(51, 11, 104, 0.384);
+  background-color: rgba(51, 11, 104, 0.445);
+  border-radius: 100px;
 }
