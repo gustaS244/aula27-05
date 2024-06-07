@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
     "react-router": "^6.23.1"
   }
 }
