@@ -1,4 +1,4 @@
-import styles from './styles.HomeContent.module.css'
+import styles from './Home.Content.module.css'
 
 export default function HomeContent() {
   return (

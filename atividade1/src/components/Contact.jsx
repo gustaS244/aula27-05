@@ -11,7 +11,7 @@ import {
   Button,
 } from "@chakra-ui/react";
 
-export function Contato() {
+export function Contact() {
   return (
     // <h1>Contato</h1>
 
@@ -25,9 +25,9 @@ export function Contato() {
       <Flex>
         <Center
           w="100%"
-          bg="white"
+          bg="black"
           top={90}
-          borderRadius={5}
+          borderRadius={60}
           p="2"
           boxShadow={"0 1px 2px #ccc"}
           
@@ -82,10 +82,11 @@ export function Contato() {
               <Box w='100%'>
                 <FormLabel>Sexo</FormLabel>
                 <RadioGroup>
-                  <HStack  >
-                    <Radio value="Masculino">Masculino</Radio>
-                    <Radio value="Feminino">Feminino</Radio>
-                  </HStack> 
+                <HStack  >
+                  <Radio value="Masculino">Masculino</Radio>
+                  <Radio value="Feminino">Feminino</Radio>
+                  </HStack>
+                  
                 </RadioGroup>
               </Box>
               <Box w='100%'>
@@ -100,7 +101,7 @@ export function Contato() {
               w={250}
               fontWeight={900}
               type='submit'
-              bg='teal.500'
+              bg='gray'
               fontSize=''
               mt={5}>
                 Enviar

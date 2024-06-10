@@ -38,10 +38,7 @@ function App() {
           paginaPrincipal='seçao de produtos'
           />} />
 
-          <Route path='/Contact'element={<Contact nomeContact='Contatos'
-          paginaPrincipal='Contato profissional'
-
-          />} />
+          <Route path='/Contact'element={<Contact/>} />
            
         </Routes>
       
