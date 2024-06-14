@@ -1,0 +1,22 @@
+.titleHistoryContent{
+    
+    font-size: 2rem;
+    background-color: #000000;
+    border-radius: 50px;
+    color: white;
+}
+    
+.imgHy{
+
+    display: inline-flex;
+    align-items:center ;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    width: 700px;
+    height: 300px;
+}
+.PHistory{
+  margin: 50px;
+  padding: 20px;
+}
+     

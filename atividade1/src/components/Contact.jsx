@@ -110,6 +110,6 @@ export function Contact() {
           </FormControl>
         </Center>
       </Flex>
-    </Box>
+  </Box>
   );
 }
