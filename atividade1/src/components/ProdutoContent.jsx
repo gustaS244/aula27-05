@@ -13,8 +13,9 @@ export default function ProdutoContent() {
       <div className={styles.CapS}>
         <h2>Capivara Estudante R$500  </h2>
         <h2>Capivara Empresaria R$1500</h2>
-        <h2>Capivara patriota R$5000 </h2>
         <h2>Capivara Gamer R$10000</h2>
+        <h2>Capivara patriota R$5000 </h2>
+        
         
 
       </div>
