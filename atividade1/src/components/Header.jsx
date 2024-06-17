@@ -8,7 +8,7 @@ export function Header() {
       
       <ul className={styles.menu}>
         
-        <li><Link to="./">home</Link></li>
+        <li><Link to="./">Inicio</Link></li>
         <li><Link to='./Mission'>Missao</Link></li>
         <li><Link to='./Produto'>Produto</Link></li>
         <li><Link to='./History'>Historia</Link></li>
