@@ -4,7 +4,7 @@ export default function HomeContent() {
   return (
     <header>
       <aside>
-        <h3 className={styles.titleHomeContent}>Conteudo do Home</h3>
+        <h3 className={styles.titleHomeContent}></h3>
         <div className={styles.timg }>
         <img id='imgcap' src="https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia10538/capivara-autorizacao-para-a-criacao-em-cativeiro-custos-e-comercializacao.jpg" alt="" />
 
